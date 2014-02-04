@@ -1,13 +1,12 @@
-webstorm-livetpls-jasmine
-=========================
+## webstorm-livetpls-jasmine
 
 Embed live templates for jasmine (behavior-driven development framework for testing JavaScript code)
 
-# Contributors
+### Contributors
 
 Feel free to purpose a Merge Request to improve this tools!
 
-# Installation
+### Installation
 
 You can use install bash file to launch copy of xml files to your WebStorm preferences folder.
 Usage:
@@ -15,11 +14,11 @@ Usage:
 
 PATH is optional (it will be auto computed for Mac OS Platform and Webstorm6/7).
 
-# Documentation
+### Documentation
 
 These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](http://pivotal.github.io/jasmine/).
 
-# List of available Live Templates
+### List of available Live Templates
 
 - jasd: Jasmine describe template
 - jasi: Jasmine it template
