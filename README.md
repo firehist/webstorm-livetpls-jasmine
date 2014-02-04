@@ -3,6 +3,10 @@ webstorm-livetpls-jasmine
 
 Embed live templates for jasmine (behavior-driven development framework for testing JavaScript code)
 
+# Contributors
+
+Feel free to purpose a Merge Request to improve this tools!
+
 # Installation
 
 You can use install bash file to launch copy of xml files to your WebStorm preferences folder.
