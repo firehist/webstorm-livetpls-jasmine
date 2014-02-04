@@ -1,0 +1,44 @@
+#!/bin/bash
+# Detects which OS and if it is Linux then it will detect which Linux
+# Distribution.
+
+USER_HOME=$(eval echo ~${SUDO_USER})
+OS=`uname -s`
+FILE="Jasmine.xml"
+PATH=""
+
+# Auto-compute PATH if not given as parameter
+if (( "$#" != 1 )); then
+  # Mac OS Platform
+  if [ $OS == "Darwin" ]; then
+    MACPATHS="$USER_HOME/Library/Preferences/WebStorm6/templates $USER_HOME/Library/Preferences/WebStorm7/templates"
+    echo "Auto compute path for Mac OS X platform"
+    for i in $MACPATHS; do
+      if [ -d "$i" ]; then
+        PATH=$i
+      fi
+    done   
+  # Linux Platform
+  elif [ "$(expr substr $OS 1 5)" == "Linux" ]; then
+    echo "Auto compute path for Linux platform does not work"
+  # Windows NT Platform
+  elif [ "$(expr substr $OS 1 10)" == "MINGW32_NT" ]; then
+    echo "Auto compute path for Windows NT platform does not work"
+  fi
+else
+  PATH=$1
+fi
+
+# Copy FILE to PATH if exist, display usage else
+if [ "$PATH" != "" ] && [ -d $PATH ]; then
+  echo "Copy "./$FILE $PATH/$FILE""
+  /bin/cp "./$FILE" "$PATH/$FILE"
+else
+  if [ "$PATH" != "" ]; then
+    echo "Path $PATH was not found!"
+  else
+    echo "No PATH given/found!"
+  fi
+  echo "you can give PATH as first parameter: ./$0 my/dest/path"
+  exit 1
+fi
