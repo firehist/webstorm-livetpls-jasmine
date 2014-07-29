@@ -60,9 +60,9 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - expecthavebeencalledwith: Expect(X).toHaveBeenCalledWith(Y)
 - it: Jasmine it template
 - jasa: afterEach
-- expecttypeof: Expect(typeof X).toEqual(Y)
-- expectnumber: Expect(typeof X).toEqual('number')
-- expectarray: Expect(X.length).toBeDefined()
-- expectfunc: Expect(typeof X).toEqual('function')
-- expectobj: Expect(typeof X).toEqual('object')
-- expectstr: Expect(typeof X).toEqual('string')
+- expectnumber: expect(X).toEqual(jasmine.any(Number))
+- expectarray: expect(X).toEqual(jasmine.any(Array))
+- expectfunc: expect(X).toEqual(jasmine.any(Function))
+- expectobj: expect(X).toEqual(jasmine.any(Object))
+- expectstr: expect(X).toEqual(jasmine.any(String))
+- expectobjcontain: expect($a$).toEqual(jasmine.objectContaining({}))
