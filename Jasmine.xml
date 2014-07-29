@@ -862,29 +862,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="expecttypeof" value="expect(typeof $a$).toEqual('$b$');&#10;$END$" description="Expect(typeof X).toEqual(Y)" toReformat="true" toShortenFQNames="true">
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="OTHER" value="false" />
-    </context>
-  </template>
-  <template name="expectnumber" value="expect(typeof $a$).toEqual('number');&#10;$END$" description="Expect(typeof X).toEqual('number')" toReformat="true" toShortenFQNames="true">
+  <template name="expectnumber" value="expect($a$).toEqual(jasmine.any(Number));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Number))" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -905,7 +883,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="expectarray" value="expect($a$.length).toBeDefined();&#10;$END$" description="Expect(X.length).toBeDefined()" toReformat="true" toShortenFQNames="true">
+  <template name="expectarray" value="expect($a$).toEqual(jasmine.any(Array));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Array))" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -926,7 +904,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="expectfunc" value="expect(typeof $a$).toEqual('function');&#10;$END$" description="Expect(typeof X).toEqual('function')" toReformat="true" toShortenFQNames="true">
+  <template name="expectfunc" value="expect($a$).toEqual(jasmine.any(Function));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Function))" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -947,7 +925,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="expectobj" value="expect(typeof $a$).toEqual('object');&#10;$END$" description="Expect(typeof X).toEqual('object')" toReformat="true" toShortenFQNames="true">
+  <template name="expectobj" value="expect($a$).toEqual(jasmine.any(Object));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Object))" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -968,7 +946,28 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="expectstr" value="expect(typeof $a$).toEqual('string');&#10;$END$" description="Expect(typeof X).toEqual('string')" toReformat="true" toShortenFQNames="true">
+  <template name="expectstr" value="expect($a$).toEqual(jasmine.any(String));&#10;$END$" description="expect($a$).toEqual(jasmine.any(String))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="expectobjcontain" value="expect($a$).toEqual(jasmine.objectContaining({}));&#10;$END$" description="expect($a$).toEqual(jasmine.objectContaining({}))" toReformat="true" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
