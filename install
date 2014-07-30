@@ -4,7 +4,7 @@
 
 USER_HOME=$(eval echo ~${SUDO_USER})
 OS=`uname -s`
-FILE="Jasmine.xml"
+FILE="Jasmine2x.xml"
 PATH=""
 
 # Auto-compute PATH if not given as parameter
