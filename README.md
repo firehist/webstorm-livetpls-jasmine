@@ -21,15 +21,18 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 ### List of available Live Templates
 
 - jasd: Jasmine describe template
-- jasi: Jasmine it template
+- jasb: beforeEach
+- jasa: afterEach
+- it: Jasmine it template
+
 - jasbi: beforeEach with Angular's inject
 - jasbm: beforEach with AngularJS module
-- jasb: beforeEach
 - iit: Jasmine it template with injectables
 - jasctrl: Jasmine describe controller
 - jasdir: Jasmine describe directive
 - jasf: Jasmine describe filter
 - jass: Jasmine describe service
+
 - expectbe: Expect(X).toBe(Y)
 - expectnotbe: Expect(X).not.toBe(Y)
 - expectequal: Expect(X).toEqual(Y)
@@ -52,17 +55,17 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - expectcloseto: Expect(X).toBeCloseTo(Y, Z)
 - expectthrow: Expect(X).toThrow()
 - expectnotthrow: Expect(X).not.toThrow()
-- spyon: spyOn(Obj, Key)
-- spyonthrough: spyOn(Obj, Key).andCallThrough()
-- spyonreturn: spyOn(Obj, Key).andReturn()
-- spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
 - expecthavebeencalled: Expect(X).toHaveBeenCalled()
 - expecthavebeencalledwith: Expect(X).toHaveBeenCalledWith(Y)
-- it: Jasmine it template
-- jasa: afterEach
+
 - expectnumber: expect(X).toEqual(jasmine.any(Number))
 - expectarray: expect(X).toEqual(jasmine.any(Array))
 - expectfunc: expect(X).toEqual(jasmine.any(Function))
 - expectobj: expect(X).toEqual(jasmine.any(Object))
 - expectstr: expect(X).toEqual(jasmine.any(String))
-- expectobjcontain: expect($a$).toEqual(jasmine.objectContaining({}))
+- expectobjcontain: expect(X).toEqual(jasmine.objectContaining({}))
+
+- spyon: spyOn(Obj, Key)
+- spyonthrough: spyOn(Obj, Key).andCallThrough()
+- spyonreturn: spyOn(Obj, Key).andReturn()
+- spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
