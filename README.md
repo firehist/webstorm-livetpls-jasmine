@@ -8,23 +8,24 @@ Feel free to purpose a Merge Request to improve this tools!
 
 ### Installation
 
-You can use install bash file to launch copy of xml files to your WebStorm preferences folder.
-Usage:
-./install PATH
-
-PATH is optional (it will be auto computed for Mac OS Platform and Webstorm6/7).
+|System|Location|
+|:-----|:-------|
+|windows|`C:\Users\Administrator\.WebStorm8\config\templates`|
+|linux|`~.[product name][version number]\config\templates`|
+|mac|`~/Library/Preferences/[product name][version number]/templates`|
 
 ### Documentation
 
-These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](http://pivotal.github.io/jasmine/).
+These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](https://github.com/pivotal/jasmine).
 
-### List of available Live Templates
+### List of available jasmine Live Templates
 
 - jasd: Jasmine describe template
-- jasi: Jasmine it template
+- jasb: beforeEach
+- jasa: afterEach
+- it: Jasmine it template
 - jasbi: beforeEach with Angular's inject
 - jasbm: beforEach with AngularJS module
-- jasb: beforeEach
 - iit: Jasmine it template with injectables
 - jasctrl: Jasmine describe controller
 - jasdir: Jasmine describe directive
@@ -52,17 +53,25 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - expectcloseto: Expect(X).toBeCloseTo(Y, Z)
 - expectthrow: Expect(X).toThrow()
 - expectnotthrow: Expect(X).not.toThrow()
-- spyon: spyOn(Obj, Key)
-- spyonthrough: spyOn(Obj, Key).andCallThrough()
-- spyonreturn: spyOn(Obj, Key).andReturn()
-- spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
 - expecthavebeencalled: Expect(X).toHaveBeenCalled()
 - expecthavebeencalledwith: Expect(X).toHaveBeenCalledWith(Y)
-- it: Jasmine it template
-- jasa: afterEach
 - expectnumber: expect(X).toEqual(jasmine.any(Number))
 - expectarray: expect(X).toEqual(jasmine.any(Array))
 - expectfunc: expect(X).toEqual(jasmine.any(Function))
 - expectobj: expect(X).toEqual(jasmine.any(Object))
 - expectstr: expect(X).toEqual(jasmine.any(String))
-- expectobjcontain: expect($a$).toEqual(jasmine.objectContaining({}))
+- expectobjcontain: expect(X).toEqual(jasmine.objectContaining({}))
+- createspy: jasmine.createSpy(Key)
+- createspyobj: jasmine.createspyobj(Key, Array)
+- spyon: spyOn(Obj, Key)
+- spyonthrough: spyOn(Obj, Key).andCallThrough()
+- spyonreturn: spyOn(Obj, Key).andReturn()
+- spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
+
+### List of available jasmine-ajax Live Templates
+
+- ajaxins: jasmine.Ajax.install()
+- ajaxuni: jasmine.Ajax.uninstall()
+- ajaxreqres: jasmine.Ajax.requests.mostRecent().response(ResponseText)
+- ajaxreqstub: jasmine.Ajax.stubRequest(Url).andReturn(ResponseText)
+- ajaxmock: jasmine.Ajax.withMock(function(){})

@@ -710,7 +710,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="spyonthrough" value="spyOn($objToSpy$, '$objAttribute$').andCallThrough()&#10;$END$" description="spyOn(Obj, Key).andCallThrough()" toReformat="false" toShortenFQNames="true">
+  <template name="spyonthrough" value="spyOn($objToSpy$, '$objAttribute$').and.callThrough()&#10;$END$" description="spyOn(Obj, Key).and.callThrough()" toReformat="false" toShortenFQNames="true">
     <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -732,7 +732,28 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="spyonreturn" value="spyOn($objToSpy$, '$objAttribute$').andReturn($returnValue$)&#10;$END$" description="spyOn(Obj, Key).andReturn()" toReformat="false" toShortenFQNames="true">
+  <template name="stub" value="$objToSpy$.$objAttribute$.and.stub()$END$&#10;" description="spy.and.stub()" toReformat="false" toShortenFQNames="true">
+    <variable name="spy" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="spyonvalue" value="spyOn($objToSpy$, '$objAttribute$').and.returnValue($returnValue$)&#10;$END$" description="spyOn(Obj, Key).and.returnValue()" toReformat="false" toShortenFQNames="true">
     <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="returnValue" expression="" defaultValue="" alwaysStopAt="true" />
@@ -755,10 +776,33 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="spyoncallfake" value="spyOn($objToSpy$, '$objAttribute$').andCallFake($function$)&#10;$END$" description="spyOn(Obj, Key).andCallFake(fct)" toReformat="false" toShortenFQNames="true">
+  <template name="spyonerror" value="spyOn($objToSpy$, '$objAttribute$').and.throwError($throwError$)&#10;$END$" description="spyOn(Obj, Key).and.throwError()" toReformat="false" toShortenFQNames="true">
     <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="throwError" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="spyonfake" value="spyOn($objToSpy$, '$objAttribute$').and.callFake(function() {&#10; $END$&#10;})&#10;
+  " description="spyOn(Obj, Key).and.callFake(func)" toReformat="false" toShortenFQNames="true">
+    <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -988,5 +1032,48 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="createspy" value="jasmine.createSpy('$spy$');&#10;$END$" description="jasmine.createSpy(Key)" toReformat="true" toShortenFQNames="true">
+    <variable name="spy" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>  
+  <template name="createspyobj" value="jasmine.createSpyObj('$spy$',['$method$']);&#10;$END$" description="jasmine.createspyobj(Key, Array)" toReformat="true" toShortenFQNames="true">
+    <variable name="spy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>  
 </templateSet>
 
