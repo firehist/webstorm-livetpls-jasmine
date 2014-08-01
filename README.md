@@ -5,6 +5,13 @@ Embed live templates for jasmine (behavior-driven development framework for test
 ### Contributors
 
 Feel free to purpose a Merge Request to improve this tools!
+Thanks to [bornkiller](https://github.com/bornkiller)
+
+### Jasmine 1.3.x & Jasmine 2.x
+
+You'll be able to use jasmine 2.x live templates by switching to [jasmine-2.x](https://github.com/firehist/webstorm-livetpls-jasmine/tree/jasmine-2.x) branch.
+[master](https://github.com/firehist/webstorm-livetpls-jasmine) branch will provide live templates for Jasmine 1.3.x.
+Enjoy!
 
 ### Installation
 
