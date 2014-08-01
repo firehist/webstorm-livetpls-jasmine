@@ -18,13 +18,12 @@ PATH is optional (it will be auto computed for Mac OS Platform and Webstorm6/7).
 
 These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](http://pivotal.github.io/jasmine/).
 
-### List of available Live Templates
+### List of available jasmine Live Templates
 
 - jasd: Jasmine describe template
 - jasb: beforeEach
 - jasa: afterEach
 - it: Jasmine it template
-
 - jasbi: beforeEach with Angular's inject
 - jasbm: beforEach with AngularJS module
 - iit: Jasmine it template with injectables
@@ -32,7 +31,6 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - jasdir: Jasmine describe directive
 - jasf: Jasmine describe filter
 - jass: Jasmine describe service
-
 - expectbe: Expect(X).toBe(Y)
 - expectnotbe: Expect(X).not.toBe(Y)
 - expectequal: Expect(X).toEqual(Y)
@@ -57,15 +55,23 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - expectnotthrow: Expect(X).not.toThrow()
 - expecthavebeencalled: Expect(X).toHaveBeenCalled()
 - expecthavebeencalledwith: Expect(X).toHaveBeenCalledWith(Y)
-
 - expectnumber: expect(X).toEqual(jasmine.any(Number))
 - expectarray: expect(X).toEqual(jasmine.any(Array))
 - expectfunc: expect(X).toEqual(jasmine.any(Function))
 - expectobj: expect(X).toEqual(jasmine.any(Object))
 - expectstr: expect(X).toEqual(jasmine.any(String))
 - expectobjcontain: expect(X).toEqual(jasmine.objectContaining({}))
-
+- createspy: jasmine.createSpy(Key)
+- createspyobj: jasmine.createspyobj(Key, Array)
 - spyon: spyOn(Obj, Key)
 - spyonthrough: spyOn(Obj, Key).andCallThrough()
 - spyonreturn: spyOn(Obj, Key).andReturn()
 - spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
+
+### List of available jasmine-ajax Live Templates
+
+- ajaxins: jasmine.Ajax.install()
+- ajaxuni: jasmine.Ajax.uninstall()
+- ajaxreqres: jasmine.Ajax.requests.mostRecent().response(ResponseText)
+- ajaxreqstub: jasmine.Ajax.stubRequest(Url).andReturn(ResponseText)
+- ajaxmock: jasmine.Ajax.withMock(function(){})

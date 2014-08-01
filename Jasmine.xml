@@ -1032,7 +1032,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="createspy" value="jasmine.createSpy('$spy$');&#10;$END$" description="jasmine.createSpy($spy$)" toReformat="true" toShortenFQNames="true">
+  <template name="createspy" value="jasmine.createSpy('$spy$');&#10;$END$" description="jasmine.createSpy(Key)" toReformat="true" toShortenFQNames="true">
     <variable name="spy" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -1053,7 +1053,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>  
-  <template name="createspyobj" value="jasmine.createSpyObj('$spy$',['$method$']);&#10;$END$" description="jasmine.createspyobj($spy$)" toReformat="true" toShortenFQNames="true">
+  <template name="createspyobj" value="jasmine.createSpyObj('$spy$',['$method$']);&#10;$END$" description="jasmine.createspyobj(Key, Array)" toReformat="true" toShortenFQNames="true">
     <variable name="spy" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
