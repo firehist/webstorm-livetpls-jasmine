@@ -8,15 +8,15 @@ Feel free to purpose a Merge Request to improve this tools!
 
 ### Installation
 
-You can use install bash file to launch copy of xml files to your WebStorm preferences folder.
-Usage:
-./install PATH
-
-PATH is optional (it will be auto computed for Mac OS Platform and Webstorm6/7).
+|System|Location|
+|:-----|:-------|
+|windows|`C:\Users\Administrator\.WebStorm8\config\templates`|
+|linux|`~.[product name][version number]\config\templates`|
+|mac|`~/Library/Preferences/[product name][version number]/templates`|
 
 ### Documentation
 
-These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](http://pivotal.github.io/jasmine/).
+These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](https://github.com/pivotal/jasmine).
 
 ### List of available jasmine Live Templates
 
