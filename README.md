@@ -75,3 +75,19 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - ajaxreqres: jasmine.Ajax.requests.mostRecent().response(ResponseText)
 - ajaxreqstub: jasmine.Ajax.stubRequest(Url).andReturn(ResponseText)
 - ajaxmock: jasmine.Ajax.withMock(function(){})
+
+### List of available jasmine-jquery Live Templates
+
+- loadpath: jasmine.getFixtures().fixturesPath
+- loadJSONpath: jasmine.getJSONFixtures().fixturesPath
+- jasload: jasmine.getFixtures().load()
+- jasappendload: jasmine.getFixtures().appendLoad()
+- jasread: jasmine.getFixtures().read()
+- jasset: jasmine.getFixtures().set()
+- jasappendset: jasmine.getFixtures().appendSet()
+- jaspreload: jasmine.getFixtures().preload()
+- jassandbox: jasmine.getFixtures().sandbox({})
+- jasclear: jasmine.getFixtures().clearCache()
+- jasclean: jasmine.getFixtures().cleanUp()
+- jasJSONload: jasmine.getJSONFixtures().load()
+- jasJSONget: jasmine.getJSONFixtures().get()

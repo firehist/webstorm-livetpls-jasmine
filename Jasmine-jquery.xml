@@ -1,0 +1,272 @@
+<templateSet>
+    <template name="loadpath" value="jasmine.getFixtures().fixturesPath = '$PATH$';$END$" description="jasmine.getFixtures().fixturesPath" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="loadJSONpath" value="jasmine.getJSONFixtures().fixturesPath = '$PATH$';$END$" description="jasmine.getJSONFixtures().fixturesPath" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasload" value="jasmine.getFixtures().load('$PATH$');$END$" description="jasmine.getFixtures().load('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasappendload" value="jasmine.getFixtures().appendLoad('$PATH$');$END$" description="jasmine.getFixtures().appendLoad('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasread" value="jasmine.getFixtures().read('$PATH$');$END$" description="jasmine.getFixtures().read('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasset" value="jasmine.getFixtures().set('$HTML$');$END$" description="jasmine.getFixtures().set('$HTML$')" toReformat="true" toShortenFQNames="true">
+        <variable name="HTML" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasappendset" value="jasmine.getFixtures().appendSet('$HTML$');$END$" description="jasmine.getFixtures().appendset('$HTML$')" toReformat="true" toShortenFQNames="true">
+        <variable name="HTML" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jaspreload" value="jasmine.getFixtures().preload('$PATH$');$END$" description="jasmine.getFixtures().preload('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jassandbox" value="jasmine.getFixtures().sandbox({&#10;$END$&#10;});" description="jasmine.getFixtures().sandbox()" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasclear" value="jasmine.getFixtures().clearCache();$END$" description="jasmine.getFixtures().clearCache()" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasclean" value="jasmine.getFixtures().cleanUp();$END$" description="jasmine.getFixtures().cleanUp()" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasJSONload" value="jasmine.getJSONFixtures().load('$PATH$');$END$" description="jasmine.getJSONFixtures().load('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="jasJSONget" value="jasmine.getJSONFixtures().get('$PATH$');$END$" description="jasmine.getJSONFixtures().get('$PATH$')" toReformat="true" toShortenFQNames="true">
+        <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+</templateSet>
