@@ -28,11 +28,17 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 ### List of available Live Templates
 
 - jasd: Jasmine describe template
+- jasda: Jasmine describe template with fat arrow function
 - jasi: Jasmine it template
 - jasbi: beforeEach with Angular's inject
 - jasbm: beforEach with AngularJS module
 - jasb: beforeEach
+- jasba: beforeEach with fat arrow function
+- it: Jasmine it template
+- ita: Jasmine it template with fat arrow function
 - iit: Jasmine it template with injectables
+- jasa: afterEach
+- jasaa: afterEach with fat arrow function
 - jasctrl: Jasmine describe controller
 - jasdir: Jasmine describe directive
 - jasf: Jasmine describe filter
@@ -65,8 +71,6 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - spyoncallfake: spyOn(Obj, Key).andCallFake(fct)
 - expecthavebeencalled: Expect(X).toHaveBeenCalled()
 - expecthavebeencalledwith: Expect(X).toHaveBeenCalledWith(Y)
-- it: Jasmine it template
-- jasa: afterEach
 - expectnumber: expect(X).toEqual(jasmine.any(Number))
 - expectarray: expect(X).toEqual(jasmine.any(Array))
 - expectfunc: expect(X).toEqual(jasmine.any(Function))

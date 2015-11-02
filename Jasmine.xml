@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Jasmine">
   <template name="jasd" value="describe('$describe$', function() {&#10;    $END$&#10;});" description="Jasmine describe template" toReformat="true" toShortenFQNames="true">
     <variable name="describe" expression="" defaultValue="" alwaysStopAt="true" />
@@ -14,10 +13,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -35,14 +34,14 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jasbi" value="beforeEach(inject(function(_$$rootScope_$other$){&#10;  $END$&#10;}));" description="beforeEach with Angular's inject" toReformat="true" toShortenFQNames="true">
+  <template name="jasbi" value="beforeEach(inject(function (_$$rootScope_$other$) {&#10;  $END$&#10;}));" description="beforeEach with Angular's inject" toReformat="true" toShortenFQNames="true">
     <variable name="other" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -56,10 +55,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -77,14 +76,14 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jasb" value="beforeEach(function(){&#10;  $END$&#10;});" description="beforeEach" toReformat="true" toShortenFQNames="true">
+  <template name="jasb" value="beforeEach(function () {&#10;  $END$&#10;});" description="beforeEach" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -97,14 +96,14 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="iit" value="it('$should$', inject(function($injectables$) {&#10;    $END$&#10;}));" description="Jasmine it template with injectables" toReformat="true" toShortenFQNames="true">
+  <template name="iit" value="it('$should$', inject(function ($injectables$) {&#10;    $END$&#10;}));" description="Jasmine it template with injectables" toReformat="true" toShortenFQNames="true">
     <variable name="should" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -119,10 +118,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -141,10 +140,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -164,10 +163,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -186,10 +185,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -208,10 +207,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -230,10 +229,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -252,10 +251,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -274,10 +273,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -296,10 +295,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -318,10 +317,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -339,10 +338,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -360,10 +359,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -381,10 +380,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -402,10 +401,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -423,10 +422,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -444,10 +443,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -465,10 +464,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -486,10 +485,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -507,10 +506,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -528,10 +527,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -550,10 +549,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -572,10 +571,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -594,10 +593,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -616,10 +615,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -639,10 +638,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -660,10 +659,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -681,10 +680,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -703,10 +702,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -725,10 +724,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -748,10 +747,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -771,10 +770,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -792,10 +791,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -814,14 +813,14 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="it" value="it('$should$', function() {&#10;    $END$&#10;});" description="Jasmine it template" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('should $should$', function () {&#10;    $END$&#10;});" description="Jasmine it template" toReformat="true" toShortenFQNames="true">
     <variable name="should" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -835,14 +834,14 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jasa" value="afterEach(function(){&#10;  $END$&#10;});" description="afterEach" toReformat="true" toShortenFQNames="true">
+  <template name="jasa" value="afterEach(function () {&#10;  $END$&#10;});" description="afterEach" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -855,10 +854,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -876,10 +875,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -897,10 +896,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -918,10 +917,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -939,10 +938,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -960,10 +959,10 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -981,12 +980,79 @@
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="jasda" value="describe('$describe$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine describe template with arrow" toReformat="false" toShortenFQNames="true">
+    <variable name="describe" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jasba" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="beforeEach with fat arrow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ita" value="it('should $should$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine it template with fat arrow" toReformat="true" toShortenFQNames="true">
+    <variable name="should" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="jasaa" value="afterEach(() =&gt; {&#10;  $END$&#10;});" description="afterEach with fat arrow" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
-
