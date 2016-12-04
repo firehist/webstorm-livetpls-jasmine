@@ -23,7 +23,7 @@ PATH is optional (it will be auto computed for Mac OS Platform and Webstorm6/7).
 
 ### Documentation
 
-These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](http://pivotal.github.io/jasmine/).
+These live templates was made for [<i class="icon-share"></i> Jasmine testing framework](https://jasmine.github.io/).
 
 ### List of available Live Templates
 
